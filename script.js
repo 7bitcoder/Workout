@@ -21,8 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     htmlContent += `
                         <section class="day-section" id="${day}">
                             <h2 class="day-title">🏋️‍♂️ Dzień ${dayCode}</h2>
-                            <div class="exercise-list">
-                `;
+                            <div class="exercise-list">`;
 
                     workoutPlan[day].forEach((exercise, idx) => {
                         let videoHTML = '';
