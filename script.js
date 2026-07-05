@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="exercise-list">
                 `;
 
-                    workoutPlan[day].forEach(exercise => {
+                    workoutPlan[day].forEach((exercise, idx) => {
                         let videoHTML = '';
                         // Check for a video URL, assuming the key is 'video_url' and it points to an mp4 file
                         if (exercise.video_url && exercise.video_url.includes('.mp4')) {
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         // Create the HTML structure for one exercise card
                         const exerciseCardHTML = `
                             <div class="exercise-card">
-                                <h3 class="exercise-name">${exercise.exercise}</h3>
+                                <h3 class="exercise-name">${idx + 1} ${exercise.exercise}</h3>
                                 <span class="muscles">Mięśnie: ${exercise.muscles.join(', ')}</span>
                                 
                                 ${videoHTML} <!-- Video injected here -->
