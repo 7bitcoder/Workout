@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             const workoutPlan = data.workout_plan;
             let htmlContent = '';
-
+            let navigationButtonsHTML = '';
             for (const day in workoutPlan) {
                 if (workoutPlan[day] && Array.isArray(workoutPlan[day])) {
                     // Start of a new Day Section
                     htmlContent += `
                         <section class="day-section" id="${day}">
-                            <h2 style="color: var(--color-text-primary);">🏋️‍♂️ ${day.replace('_', ' ')}</h2>
+                            <h2 class="day-title">🏋️‍♂️ ${day.replace('_', ' ')}</h2>
                             <div class="exercise-list">
                 `;
 
@@ -61,9 +61,14 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </section>
                     `;
+
+                    navigationButtonsHTML += `<a href="#${day}" class="nav-button">${day.at(-1)}</a>`;
                 }
             }
 
+            htmlContent += '<div class="nav-buttons">';
+            htmlContent += navigationButtonsHTML;
+            htmlContent += '</div>';
             // Inject all generated HTML into the main container
             workoutContainer.innerHTML = htmlContent;
         })
