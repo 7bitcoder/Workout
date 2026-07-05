@@ -173,6 +173,64 @@
         "video_url": "https://static.fabrykasily.pl/atlas/spiecia_brzucha_lezac_na_macie_ze_zlaczonymi_stopami.mp4",
         "info_url": "https://www.fabrykasily.pl/cwiczenia/na-brzuch/spiecia-brzucha-lezac-macie-ze-zlaczonymi"
       }
+    ],
+    "day_R": [
+      {
+        "exercise": "Przysiad z gumą pod stopami",
+        "muscles": ["Czworogłowe uda", "Pośladki"],
+        "description": "Gumę zahacz o stopy, końce trzymaj na barkach. Głęboki przysiad.",
+        "sets_reps": "4x15-20",
+        "video_url": "https://static.fabrykasily.pl/atlas/video-przysiad-z-guma.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/czworoglowe-uda/przysiad-z-guma"
+      },
+      {
+        "exercise": "Wyciskanie gumy w leżeniu (na podłodze)",
+        "muscles": ["Klatka piersiowa", "Triceps"],
+        "description": "Gumę przełóż za plecami (na wysokości łopatek). Wyciskaj przed siebie.",
+        "sets_reps": "4x15-20",
+        "video_url": "https://static.fabrykasily.pl/atlas/m_wyciskanie_z_guma_za_plecami.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/klatka-piersiowa/wyciskanie-z-guma-za-plecami"
+      },
+      {
+        "exercise": "Wiosłowanie gumą w siadzie prostym",
+        "muscles": ["Plecy", "Biceps"],
+        "description": "Guma wokół stóp, chwyt oburącz. Ściągaj łopatki mocno do siebie.",
+        "sets_reps": "4x15-20",
+        "video_url": "https://static.fabrykasily.pl/atlas/video-wioslowanie-guma.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/plecy/wioslowanie-guma"
+      },
+      {
+        "exercise": "Wyciskanie żołnierskie (stojąc)",
+        "muscles": ["Barki"],
+        "description": "Guma pod stopami, wypychaj ręce nad głowę. Pilnuj core.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/video-wyciskanie-ramion-z-guma-nad-glowe.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/barki/wyciskanie-ramion-z-guma-nad-glowe"
+      },
+      {
+        "exercise": "Uginanie ramion z gumą",
+        "muscles": ["Biceps"],
+        "description": "Stań na gumie, chwyt podchwytem. Nie machaj ciałem!",
+        "sets_reps": "3x15-20",
+        "video_url": "https://static.fabrykasily.pl/atlas/video-uginanie-ramion-z-guma.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/biceps/uginanie-ramion-z-guma"
+      },
+      {
+        "exercise": "Prostowanie przedramion z gumą",
+        "muscles": ["Triceps"],
+        "description": "Stałe napięcie gumy, łokcie w miejscu.",
+        "sets_reps": "3x15",
+        "video_url": "https://static.fabrykasily.pl/atlas/m_prostowanie_ramion_z_guma_pod_stopami.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/triceps/prostowanie-ramion-z-guma-pod-stopami"
+      },
+      {
+        "exercise": "Dead Bug (Martwy Robak)",
+        "muscles": ["Mięśnie brzucha (prosty)", "Mięśnie skośne"],
+        "description": "Leżysz na plecach, ręce w górze, nogi ugięte w powietrzu.",
+        "sets_reps": "3x15",
+        "video_url": "https://static.fabrykasily.pl/atlas/dead_bug_nogi_proste.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/brzuch/dead-bug-nogi-proste"
+      }
     ]
   }
 }

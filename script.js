@@ -15,10 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
             let navigationButtonsHTML = '';
             for (const day in workoutPlan) {
                 if (workoutPlan[day] && Array.isArray(workoutPlan[day])) {
+                    const dayCode = day.at(-1);
+
                     // Start of a new Day Section
                     htmlContent += `
                         <section class="day-section" id="${day}">
-                            <h2 class="day-title">🏋️‍♂️ ${day.replace('_', ' ')}</h2>
+                            <h2 class="day-title">🏋️‍♂️ Dzień ${dayCode}</h2>
                             <div class="exercise-list">
                 `;
 
@@ -62,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </section>
                     `;
 
-                    navigationButtonsHTML += `<a href="#${day}" class="nav-button">${day.at(-1)}</a>`;
+                    navigationButtonsHTML += `<a href="#${day}" class="nav-button">${dayCode}</a>`;
                 }
             }
 
