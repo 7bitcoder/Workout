@@ -9,39 +9,37 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             return response.json();
         })
-        .then(data => {
-            const workoutPlan = data.workout_plan;
+        .then(workoutPlan => {
             let htmlContent = '';
             let navigationButtonsHTML = '';
-            for (const day in workoutPlan) {
-                if (workoutPlan[day] && Array.isArray(workoutPlan[day])) {
-                    const dayCode = day.at(-1);
+            workoutPlan.days.forEach(day => {
+                const dayId = `day-${day.name}`;
 
-                    // Start of a new Day Section
-                    htmlContent += `
-                        <section class="day-section" id="${day}">
-                            <h2 class="day-title">🏋️‍♂️ Dzień ${dayCode}</h2>
+                // Start of a new Day Section
+                htmlContent += `
+                        <section class="day-section" id="${dayId}">
+                            <h2 class="day-title">🏋️‍♂️ Dzień ${day.name}</h2>
                             <div class="exercise-list">`;
 
-                    workoutPlan[day].forEach((exercise, idx) => {
-                        let videoHTML = '';
-                        // Check for a video URL, assuming the key is 'video_url' and it points to an mp4 file
-                        if (exercise.video_url && exercise.video_url.includes('.mp4')) {
-                            videoHTML = `
+                day.exercises.forEach((exercise, idx) => {
+                    let videoHTML = '';
+                    // Check for a video URL, assuming the key is 'video_url' and it points to an mp4 file
+                    if (exercise.video_url && exercise.video_url.includes('.mp4')) {
+                        videoHTML = `
                                 <div class="video-player">
                                     <video autoplay loop muted playsinline src="${exercise.video_url}">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                             `;
-                        }
+                    }
 
-                        const linksHtml = exercise.info_url ? `<a  class="info-link" href="${exercise.info_url}" target="_blank">Szczegóły</a>` : ''
+                    const linksHtml = exercise.info_url ? `<a  class="info-link" href="${exercise.info_url}" target="_blank">Szczegóły</a>` : ''
 
-                        // Create the HTML structure for one exercise card
-                        const exerciseCardHTML = `
+                    // Create the HTML structure for one exercise card
+                    const exerciseCardHTML = `
                             <div class="exercise-card">
-                                <h3 class="exercise-name">${idx + 1}. ${exercise.exercise}</h3>
+                                <h3 class="exercise-name">${idx + 1}. ${exercise.name}</h3>
                                 <span class="muscles">Mięśnie: ${exercise.muscles.join(', ')}</span>
                                 
                                 ${videoHTML} <!-- Video injected here -->
@@ -54,18 +52,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
                             </div>
                         `;
-                        htmlContent += exerciseCardHTML;
-                    });
+                    htmlContent += exerciseCardHTML;
+                });
 
-                    // Closing the Day Section and Exercise List
-                    htmlContent += `
+                // Closing the Day Section and Exercise List
+                htmlContent += `
                             </div>
                         </section>
                     `;
 
-                    navigationButtonsHTML += `<a href="#${day}" class="nav-button">${dayCode}</a>`;
-                }
-            }
+                navigationButtonsHTML += `<a href="#${dayId}" class="nav-button">${day.name}</a>`;
+            });
 
             htmlContent += '<div class="nav-buttons">';
             htmlContent += navigationButtonsHTML;
