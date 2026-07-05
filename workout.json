@@ -1,0 +1,178 @@
+{
+  "workout_plan": {
+    "day_A": [
+      {
+        "exercise": "Przysiad z hantlami",
+        "muscles": ["Czworogłowe uda", "Pośladki", "Prostowniki grzbietu"],
+        "description": "Trzymaj hantle przy barkach, plecy proste, pełny zakres ruchu.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/przysiad_z_hantelkami.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/czworoglowe-uda/przysiad-z-hantelkami"
+      },
+      {
+        "exercise": "Wyciskanie hantli na ławce płaskiej",
+        "muscles": ["Klatka piersiowa", "Przedni akton barku", "Triceps"],
+        "description": "Łopatki ściągnięte, kontroluj fazę negatywną (opuszczanie).",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/wyciskanie_sztangielek_na_lawce_plaskiej.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-klatke-piersiowa/wyciskanie-sztangielek-na-lawce-plaskiej-dumbbell"
+      },
+      {
+        "exercise": "Wiosłowanie hantlem jednorącz",
+        "muscles": ["Najszerszy grzbietu", "Mięśnie obłe", "Biceps"],
+        "description": "Oprzyj się o ławkę, pracuj łopatką, nie szarp ciężarem.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/wioslowanie_hantla_w_kleku_podpartym_na_laweczce.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-plecy/wioslowanie-hantla-w-kleku-podpartym"
+      },
+      {
+        "exercise": "Arnoldki (wyciskanie barki)",
+        "muscles": ["Barki (wszystkie aktony)", "Triceps"],
+        "description": "Rotacja nadgarstka przy wyciskaniu w górę.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/arnoldki_wyciskanie_hantli_nad_glowe_z_rotacja.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-barki/arnoldki-wyciskanie-hantli-nad-glowe"
+      },
+      {
+        "exercise": "Uginanie przedramion z hantlami",
+        "muscles": ["Biceps", "Ramienny"],
+        "description": "Łokcie przyklejone do tułowia, bez bujania ciałem.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/uginanie_ramion_z_hantlami_z_rotacja.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/biceps/uginanie-ramion-z-hantlami-z-rotacja"
+      },
+      {
+        "exercise": "Wyciskanie francuskie hantla",
+        "muscles": ["Triceps"],
+        "description": "Trzymaj łokcie blisko głowy, pracuj tylko przedramieniem.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/wyciskanie_francuskie_hantlami.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/triceps/wyciskanie-francuskie-hantlami"
+      },
+      {
+        "exercise": "Dead Bug (Martwy Robak)",
+        "muscles": ["Mięśnie brzucha (prosty)", "Mięśnie skośne"],
+        "description": "Leżysz na plecach, ręce w górze, nogi ugięte w powietrzu.",
+        "sets_reps": "3x15",
+        "video_url": "https://static.fabrykasily.pl/atlas/dead_bug_nogi_proste.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/brzuch/dead-bug-nogi-proste"
+      }
+    ],
+    "day_B": [
+      {
+        "exercise": "Wykroki z hantlami",
+        "muscles": ["Czworogłowe uda", "Pośladki", "Stabilizatory core"],
+        "description": "Krok w przód, kolano pod kątem 90 stopni, plecy wyprostowane.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/wykroki_w_miejscu_z_hantelkami.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/czworoglowe-uda/zakroki-w-miejscu-z-hantelkami"
+      },
+      {
+        "exercise": "Wyciskanie hantli na ławce skośnej",
+        "muscles": ["Górna część klatki", "Barki (przedni akton)"],
+        "description": "Skupienie na górnej części klatki piersiowej.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/wyciskanie_sztangielek_na_lawce_dodatniej.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-klatke-piersiowa/wyciskanie-sztangielek-na-lawce-dodatniej-incline"
+      },
+      {
+        "exercise": "Wiosłowanie hantlami oburącz",
+        "muscles": ["Najszerszy grzbietu", "Mięśnie międzyłopatkowe", "Biceps"],
+        "description": "W oparciu o ławkę, ściągaj łopatki do siebie.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/wioslowanie_hantlami_w_oparciu_o_lawke_skosna.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-plecy/wioslowanie-hantlami-w-oparciu-o-lawke"
+      },
+      {
+        "exercise": "Wznosy hantli bokiem",
+        "muscles": ["Barki (akton boczny)"],
+        "description": "Ruch do linii barków, mały ciężar, pełna kontrola.",
+        "sets_reps": "3x15",
+        "video_url": "https://static.fabrykasily.pl/atlas/odwodzenie_ramion_w_bok_ze_sztangielkami.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-barki/odwodzenie-ramion-w-bok-ze-sztangielkami"
+      },
+      {
+        "exercise": "Uginanie młotkowe",
+        "muscles": ["Biceps", "Ramienny", "Ramienno-promieniowy"],
+        "description": "Chwyt neutralny, skupienie na grubości ramienia.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/zginanie_przedramion_w_chwycie_mlotkowym.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-biceps/zginanie-przedramion-z-hantlami-w-chwycie"
+      },
+      {
+        "exercise": "Prostowanie przedramion z gumą",
+        "muscles": ["Triceps"],
+        "description": "Stałe napięcie gumy, łokcie w miejscu.",
+        "sets_reps": "3x15",
+        "video_url": "https://static.fabrykasily.pl/atlas/m_prostowanie_ramion_z_guma_pod_stopami.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/triceps/prostowanie-ramion-z-guma-pod-stopami"
+      },
+      {
+        "exercise": "Plank (deska)",
+        "muscles": ["Mięśnie głębokie brzucha", "Pośladki"],
+        "description": "Ciało w linii prostej, mocne napięcie.",
+        "sets_reps": "3x max czas",
+        "video_url": "https://static.fabrykasily.pl/atlas/deska_scianka_plank.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/domowe/deska-scianka-plank"
+      }
+    ],
+    "day_C": [
+      {
+        "exercise": "Bułgary (przysiad na jednej nodze)",
+        "muscles": ["Pośladki", "Czworogłowe uda"],
+        "description": "Jedna noga na ławce, schodzisz nisko, utrzymuj równowagę.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/przysiad_bulgarski_wersja_posladkowa.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/cwiczenia-domowe/przysiad-bulgarski"
+      },
+      {
+        "exercise": "Pompki",
+        "muscles": ["Klatka piersiowa", "Triceps", "Barki"],
+        "description": "Klasyczne lub diamentowe dla większego zaangażowania tricepsa.",
+        "sets_reps": "3x max",
+        "video_url": "https://static.fabrykasily.pl/atlas/pompki_tradycyjne_pompka_klasyczna.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/domowe/pompki-tradycyjne"
+      },
+      {
+        "exercise": "Przenoszenie hantla za głowę",
+        "muscles": ["Najszerszy grzbietu", "Klatka piersiowa"],
+        "description": "Leżąc na ławce, czuj rozciąganie klatki i najszerszych pleców.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/przenoszenie_sztangielki_za_glowe.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-klatke-piersiowa/przenoszenie-sztangielki-za-glowe-bentarm-dumbbell"
+      },
+      {
+        "exercise": "Power raise (barki)",
+        "muscles": ["Barki (tylny i środkowy akton)"],
+        "description": "Rób na siedząco dla bezpieczeństwa kręgosłupa.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/m_powell_raise.mp4",
+        "info_url": "https://www.fabrykasily.pl/atlas-cwiczen/barki/powell-raise"
+      },
+      {
+        "exercise": "Uginanie hantli na ławce skośnej",
+        "muscles": ["Biceps (głowa długa)"],
+        "description": "Maksymalne rozciągnięcie bicepsa w fazie początkowej.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/bicepsy_w_lezeniu_na_laweczce.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-biceps/zginanie-przedramion-na-zewnatrz-siedzac"
+      },
+      {
+        "exercise": "Dipy na ławce",
+        "muscles": ["Triceps"],
+        "description": "Wyciskanie z oparciem rąk o ławkę za plecami.",
+        "sets_reps": "3x12-15",
+        "video_url": "https://static.fabrykasily.pl/atlas/pompki_tylem_%20na_krzesle.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-triceps/pompki-w-podporze-tylem-na-laweczce-bench"
+      },
+      {
+        "exercise": "Spięcia brzucha",
+        "muscles": ["Mięśnie brzucha (prosty)"],
+        "description": "Lędźwie przyklejone do podłoża.",
+        "sets_reps": "3x20",
+        "video_url": "https://static.fabrykasily.pl/atlas/spiecia_brzucha_lezac_na_macie_ze_zlaczonymi_stopami.mp4",
+        "info_url": "https://www.fabrykasily.pl/cwiczenia/na-brzuch/spiecia-brzucha-lezac-macie-ze-zlaczonymi"
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+/* Global Reset and Base Styles */
+:root {
+  --color-bg: #121212; /* Deep dark background */
+  --color-surface: #1e1e1e; /* Slightly lighter card/element background */
+  --color-text-primary: #ffffff; /* White text for high contrast */
+  --color-text-secondary: #aaaaaa; /* Grey text for descriptions/details */
+  --color-accent: #4caf50; /* <-- Friendly Green Accent Color */
+  --color-shadow: rgba(76, 175, 80, 0.2); /* Shadow matching the accent color */
+}
+
+* {
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background-color: var(--color-surface);
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 3px solid var(--color-accent);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 2.5rem; /* Changed from em to rem */
+  margin-bottom: 0.625rem; /* Adjusted spacing using rem based on typical body line height/padding */
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.1rem; /* Changed from em to rem */
+  color: var(--color-text-secondary);
+}
+
+/* Main Content Area */
+#workout-container {
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styling for a single workout day card */
+.day-section {
+  text-transform: capitalize;
+  background-color: var(--color-surface);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.day-section h2 {
+  font-size: 1.8rem; /* Changed from em to rem */
+  margin-bottom: 2.5rem; /* Adjusted spacing using rem */
+  color: var(--color-text-primary);
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.exercise-card {
+  background-color: #282828; /* Slightly darker than surface for contrast */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  border-left: 3px solid var(--color-accent);
+  display: flex; /* Changed to flex for better layout control */
+  flex-direction: column; /* Stack items vertically by default */
+  gap: 0.5rem;
+}
+
+.exercise-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.5),
+    0 0 10px var(--color-accent);
+}
+
+/* New styling for video container */
+.video-player {
+  width: 100%; /* Full width within the card */
+  max-width: 100%;
+  margin: 20px auto; /* Increased vertical space */
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.video-player video {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Subtle lift effect on video */
+}
+
+.exercise-name {
+  font-size: 1.4rem; /* Changed from em to rem */
+  color: var(--color-accent);
+  cursor: pointer;
+}
+
+.sets-reps {
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.muscles {
+  font-style: italic;
+  color: var(--color-text-secondary);
+}
+
+.description {
+  color: var(--color-text-secondary);
+  border-left: 2px solid #3a3a3a;
+  padding-left: 10px;
+}
+
+.info-link {
+  color: var(--color-accent);
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.2s;
+}
+
+.info-link:hover {
+  color: #66bb6a; /* Slightly lighter green on hover */
+  text-decoration: underline; /* Add underline back on hover for UX */
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  color: var(--color-text-secondary);
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  #workout-container {
+    padding: 40px 5%;
+  }
+
+  .day-section {
+    padding: 30px;
+  }
+
+  header h1 {
+    font-size: 3em; /* Keeping this as em/pixel value if specific large scaling is desired, but using rem here for consistency with general theme sizing */
+    font-size: 2.5rem; /* Adjusted to match the base feel more consistently */
+  }
+  .exercise-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sets-reps {
+    margin-top: 0;
+  }
+}
