@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         // Create the HTML structure for one exercise card
                         const exerciseCardHTML = `
                             <div class="exercise-card">
-                                <h3 class="exercise-name">${idx + 1} ${exercise.exercise}</h3>
+                                <h3 class="exercise-name">${idx + 1}. ${exercise.exercise}</h3>
                                 <span class="muscles">Mięśnie: ${exercise.muscles.join(', ')}</span>
                                 
                                 ${videoHTML} <!-- Video injected here -->
