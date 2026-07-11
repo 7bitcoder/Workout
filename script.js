@@ -25,15 +25,10 @@ function processCSVData(results) {
 }
 
 function prepareWorkoutPlan(data) {
-    const workoutPlan = { days: [] };
-    const dayMap = new Map();
+    const dayMap = Map.groupBy(data, row => row.day.trim());
 
-    data.forEach(row => {
-        const dayName = row.day.trim();
-        const day = dayMap.get(dayName) || dayMap.set(dayName, { name: dayName, exercises: [] }).get(dayName);
-        day.exercises.push({ ...row });
-    });
-    workoutPlan.days = Array.from(dayMap.values());
+    const workoutPlan = { days: [] };
+    dayMap.forEach((exercises, name) => { workoutPlan.days.push({ name, exercises }) });
     return workoutPlan;
 }
 
